@@ -1,0 +1,37 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.forward(76)
+>>> t.penup()
+>>> t.forward(49)
+>>> t.pendown()
+>>> t.forward(76)
+>>> t.right(144)
+>>> t.forward(76)
+>>> t.penup()
+>>> t.forward(49)
+>>> t.pendown()
+>>> t.forward(76)
+>>> t.right(144)
+>>> t.forward(76)
+>>> t.penup()
+>>> t.forward(49)
+>>> t.pendown()
+>>> t.forward(76)
+>>> t.right(144)
+>>> t.forward(76)
+>>> t.penup()
+>>> t.forward(49)
+>>> t.pendown()
+>>> t.forward(76)
+>>> t.right(144)
+>>> t.forward(76)
+>>> t.penup()
+>>> t.forward(49)
+>>> t.pendown()
+>>> t.forward
+<bound method TNavigator.forward of <turtle.Turtle object at 0x0352C580>>
+>>> t.forward(76)
+>>> t.home()
+>>> 

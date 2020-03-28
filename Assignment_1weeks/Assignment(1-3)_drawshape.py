@@ -1,0 +1,40 @@
+Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> import turtle
+>>> t = turtle.Turtle()
+>>> t.shape("turtle")
+>>> t.forward(75)
+>>> t.penup()
+>>> t.forwrad(50)
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    t.forwrad(50)
+AttributeError: 'Turtle' object has no attribute 'forwrad'
+>>> t.forward(50)
+>>> t.pendown()
+>>> t.forward(75)
+>>> t.right(144)
+>>> t.forward(75)
+>>> t.penup()
+>>> t.forward(50)
+>>> t.pendown()
+>>> t.forward(75)
+>>> t.right(144)
+>>> t.forward(75)
+>>> t.penup()
+>>> t.forward(50)
+>>> t.pendown()
+>>> t.forward(75)
+>>> t.right(144)
+>>> t.forward(75)
+>>> t.penup()
+>>> t.forward(50)
+>>> t.pendown()
+>>> t.forward(75)
+>>> t.right(144)
+>>> t.forward(75)
+>>> t.penup()
+>>> t.forward(50)
+>>> t.pendown()
+>>> t.forward(75)
+>>> 
