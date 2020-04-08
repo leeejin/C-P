@@ -1,0 +1,13 @@
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+s = turtle.textinput('입력창','그림 색: ')
+t.color(s)
+t.penup()
+t.goto(-30,120)
+t.pendown()
+t.write(s + "원그리기")
+t.penup()
+t.goto(0,0)
+t.pendown()
+t.circle(50)
