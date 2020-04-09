@@ -1,0 +1,12 @@
+import turtle
+t = turtle.Turtle()
+t.penup()
+t.circle(100, extent = 90)
+t.pendown()
+t.circle(100, steps = 6)
+s = turtle.textinput("입력 창","그림 색: ")
+t.color(s)
+t.penup()
+t.goto(-25,85)
+t.pendown()
+t.write("Stop",font =("Arial",20,"bold"))
